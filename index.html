@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<!--Sticky-top trava o menu no topo-->
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img
+                    src="https://media.discordapp.net/attachments/856862298630783006/856862311234142208/Crunchyroll-Logo.png?width=960&height=540"
+                    alt="" width="50" height="30"> Crunchyroll</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Séries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notícias</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown"
+                            style="background-color: rgb(60, 60, 60);">
+                            <li><a class="dropdown-item" href="#">Animes</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">J-Dramas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">K-Dramas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Login/Cadastro</a>
+                    </li>
+            </div>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar " aria-label="Search">
+            </form>
+        </div>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+    <div class="container">
+        <div class="my-5 d-flex justify-content-center">
+            <div class="my-5">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856890127460990976/2C2AA-temporada-de-IDOLiSH7-jC3A1-tem-tC3ADtulo.png?width=960&height=540"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856889947122040832/wp9016814.png?width=960&height=540
+            " class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856889550886404136/Odd-Taxi-new-poster-teaser.png?width=960&height=540"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Card de notícias-->
+                <div class="my-3">
+                    <h4 class="text-light">
+                        Últimas notícias
+                    </h4>
+                </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856940538984005642/unknown.png"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="background-color: rgb(60, 60, 60);">
+                                <h5 class="card-title text-light">A grande guerra continua! Segunda temporada de Saga of
+                                    Tanya the Evil está em produção</h5>
+                                <p class="card-text text-light"> Saiba mais após o clique!</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856978122636263454/unknown.png"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="background-color: rgb(60, 60, 60);">
+                                <h5 class="card-title text-light">Filme JUJUTSU KAISEN 0 revela prévia do visual do protagonista Yuta</h5>
+                                <p class="card-text text-light"> Saiba mais após o clique!</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856978973686366248/unknown.png"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="background-color: rgb(60, 60, 60);">
+                                <h5 class="card-title text-light">Mangá de Horimiya ganhará capítulo com epílogo em julho</h5>
+                                <p class="card-text text-light"> Saiba mais após o clique!</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://media.discordapp.net/attachments/856862298630783006/856980002502344734/unknown.png"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" style="background-color: rgb(60, 60, 60);">
+                                <h5 class="card-title text-light">Mangá A Devil and Her Love Song Encore chegará ao fim em julho no Japão</h5>
+                                <p class="card-text text-light"> Saiba mais após o clique!</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de notícias-->
+                <!-- Trailers -->
+            </div>
+            <!--Fim Carrossel-->
+            <!--animes para assistir  + Cards-->
+            <div class="col-3 m-5">
+                <div class="mt-2">
+                    <a href="https://www.crunchyroll.com/pt-br/demon-slayer-kimetsu-no-yaiba/episode-1-cruelty-782932?utm_source=editorial_cr&utm_medium=side-box&utm_campaign=demon-slayer_pt&referrer=editorial_cr_side-box_demon-slayer_pt"
+                        target="_blank"><img
+                            src="https://media.discordapp.net/attachments/856862298630783006/856910070512484362/KISMET.png"
+                            alt="KISMETUS"></a>
+                </div>
+                <div>
+                    <div class="my-2">
+                        <strong class="text-light">Populares</strong>
+                    </div>
+                    <a href="https://www.crunchyroll.com/pt-br/to-your-eternity" style="text-decoration: none;">
+                        <div class="card mb-3" style="max-width: 50% 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4"">
+                            <img src="
+                                    https://media.discordapp.net/attachments/856862298630783006/856938575441690634/unknown.png"
+                                    alt=" ...">
+                                </div>
+                                <div class="col-md-8" style="background-color: rgb(60, 60, 60);">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">To Your Eternity</h5>
+                                        <p class="card-text text-light">1002 Vídeos.</p>
+                                        <p class="card-text text-light"><small class="text-muted">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.crunchyroll.com/pt-br/to-your-eternity" style="text-decoration: none;">
+                        <div class="card mb-3" style="max-width: 50% 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4"">
+                                <img src="
+                                    https://media.discordapp.net/attachments/856862298630783006/856975037231530064/unknown.png"
+                                    alt=" DDTAXI">
+                                </div>
+                                <div class="col-md-8" style="background-color: rgb(60, 60, 60);">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">ODD Taxi</h5>
+                                        <p class="card-text text-light">09 Vídeos.</p>
+                                        <p class="card-text text-light"><small class="text-muted">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.crunchyroll.com/pt-br/to-your-eternity" style="text-decoration: none;">
+                        <div class="card mb-3" style="max-width: 50% 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4"">
+                                    <img src="
+                                    https://media.discordapp.net/attachments/856862298630783006/856975670210986075/unknown.png"
+                                    alt=" ...">
+                                </div>
+                                <div class="col-md-8" style="background-color: rgb(60, 60, 60);">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">Those Snow White Notes</h5>
+                                        <p class="card-text text-light">12 Vídeos.</p>
+                                        <p class="card-text text-light"><small class="text-muted">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.crunchyroll.com/pt-br/to-your-eternity" style="text-decoration: none;">
+                        <div class="card mb-3" style="max-width: 50% 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4"">
+                                        <img src="
+                                    https://media.discordapp.net/attachments/856862298630783006/856976228711792680/unknown.png"
+                                    alt=" ...">
+                                </div>
+                                <div class="col-md-8" style="background-color: rgb(60, 60, 60);">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">IDOLiSH7</h5>
+                                        <p class="card-text text-light">33 Vídeos.</p>
+                                        <p class="card-text text-light"><small class="text-muted">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- testando-->
+        <div>
+            <div style="margin-bottom:15px;">
+                <h4 class="text-light" style="margin-left: 45px;">Trailers do que está por vir!</h4>
+            </div>
+            <div class="d-flex justify-content-around" style="background-color: rgb(50, 50, 50); padding-top: 20px;">
+                <div class="text-light mb-5">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/Yos53bn4Y3s"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe><br>
+                    <span>The Idaten Deities Know Only Peace |</span> <br><span>TRAILER OFICIAL</span>
+                </div>
+                <div class="text-light mb-5">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/g0BMd_4QWIM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Peach Boy Riverside | TRAILER OFICIAL</p>
+                </div>
+                <div class="text-light mb-5">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/sjc29N-35eI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Girlfriend, Girlfriend | TRAILER OFICIAL</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around mb-5" style="background-color: rgb(50, 50, 50);">
+                <div class="text-light">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/wT2oR1ZCPfI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Fena: Pirate Princess | TRAILER OFICIAL 2
+                    </p>
+                </div>
+                <div class="text-light">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/5wtoZo6rvys"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe><br>
+                    <span>Miss Kobayashi's Dragon Maid Dragon</span><br><span>TRAILER OFICIAL</span>
+                </div>
+                <div class="text-light">
+                    <iframe width="280" height="156" src="https://www.youtube.com/embed/87FVOrDaGw4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe> <br>
+                    <span>The aquatope on white sand</span><br><span>TRAILER OFICIAL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- traile  rs-->
+    </div>
+    <!--footer-->
+    <div style="background-color: rgb(10, 10, 10);">
+        <hr>
+        <div class="container d-flex justify-content-center">
+            <footer>
+                <div class="text-light">
+                    <span>CrunchyClone&trade; Desenvolvido por Yoshimitsu Miyahira - Nem todos direitos reservados.</a>
+                    </span>
+                    <span class="d-flex justify-content-center">Para posts patrocinados e parcerias comerciais,<a
+                            href="https://yoshiisland.netlify.app/contato.html" target="_blank"> clique aqui</a> .
+                    </span>
+                    <span class="d-flex justify-content-center"> For sponsored posts and commercial partnerships, <a
+                            href="https://yoshiisland.netlify.app/contato.html" target="_blank"> click here</a>.</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

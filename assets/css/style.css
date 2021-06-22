@@ -1,0 +1,18 @@
+.laranja{
+    color:#F68C26;
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+altura{
+    width: 30px;
+    height: 15px;
+}
+
+.botao span{
+    margin-left: 10px;
+}
+.botao {
+    padding: 15px;
+}
